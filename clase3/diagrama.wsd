@@ -25,8 +25,7 @@ class Usuario {
     -publicaciones: List<Publicacion>
 
     +addPublicacion(comentario: Comentario): void
-    +crearPublicacion(contenido: String): void
-    
+    +crearPublicacion(contenido: String): void  
 }
 
 Usuario "0" o-- "*" Publicacion: crea
